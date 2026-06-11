@@ -1,0 +1,66 @@
+﻿services:
+  ticketing-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ticketing-db
+    ports:
+      - "1434:1433"  # use 1434 on host to avoid conflict with local SQL Server
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - ticketing-db-data:/var/opt/mssql  # persist data
+    networks:
+      - ticketing-network
+
+  ticketing-grpc-service:
+    build:
+      context: .
+      dockerfile: Distirbuted.MainBoundedContext.Grpc/Dockerfile
+    container_name: ticketing-grpc-service
+    ports:
+      - "5082:5082"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - DB_PASSWORD=SwarmP@ssw0rd!!
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - ticketing-db
+    networks:
+      - ticketing-network
+
+  ticketing-api:
+    build:
+      context: .
+      dockerfile: Ticketing.API/Dockerfile
+    container_name: ticketing-api
+    ports:
+      - "5252:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - GrpcSettings__BaseAddress=http://ticketing-grpc-service:5082
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - ticketing-grpc-service
+    networks:
+      - ticketing-network
+
+  ticketing-webapp:
+    build:
+      context: ./ticketing.webapp
+      dockerfile: Dockerfile
+    container_name: ticketing-webapp
+    ports:
+      - "3000:80"
+    depends_on:
+      - ticketing-api
+    networks:
+      - ticketing-network
+
+volumes:
+  ticketing-db-data:
+
+networks:
+  ticketing-network:
+    driver: bridge

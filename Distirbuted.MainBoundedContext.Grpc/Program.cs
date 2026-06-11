@@ -9,6 +9,8 @@ using Distirbuted.MainBoundedContext.Grpc.Services;
 using Infrastructure.Crosscutting.Framework.Models;
 using Infrastructure.Data.MainBoundedContext.DependencyInjection;
 using Infrastructure.Data.MainBoundedContext.Seeding;
+using Infrastructure.Data.MainBoundedContext;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +40,44 @@ builder.Services.AddScoped<IQueryHandler<GetPaginatedTicketsQuery, PagedResult<T
 
 var app = builder.Build();
 
+// Apply migrations with retry (SQL Server may not be ready immediately in Docker)
+using (var scope = app.Services.CreateScope())
+{
+    var retries = 5;
+    var delay = 5000;
+
+    while (retries > 0)
+    {
+        try
+        {
+            var db = scope.ServiceProvider.GetRequiredService<MainDbContext>();
+
+            app.Logger.LogInformation("Applying database migrations...");
+
+            await db.Database.MigrateAsync();
+
+            app.Logger.LogInformation("Database migrations applied successfully.");
+
+            break;
+        }
+        catch (Exception ex)
+        {
+            retries--;
+
+            app.Logger.LogWarning("Database not ready. Retrying in {Delay}ms... ({Retries} attempts left). Error: {Error}",
+                delay, retries, ex.Message);
+
+            if (retries == 0)
+            {
+                app.Logger.LogError("Could not connect to the database after all retries. Shutting down.");
+                throw;
+            }
+
+            await Task.Delay(delay);
+        }
+    }
+}
+
 // Seed application data
 await ApplicationSeeder.SeedAsync(app.Services);
 
@@ -46,6 +86,11 @@ app.MapGrpcService<OrderGrpcService>();
 app.MapGrpcService<CustomerGrpcService>();
 app.MapGrpcService<TicketGrpcService>();
 app.MapGrpcService<TransactionGrpcService>();
+
+if (app.Environment.IsDevelopment() || app.Environment.IsEnvironment("Docker"))
+{
+    app.MapGrpcReflectionService();
+}
 
 app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
 

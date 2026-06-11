@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Infrastructure.Data.MainBoundedContext")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+253add119c417582eaac10ca0823d13189681880")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d80306d6fae58bb34fcf8a25b7899f1378bf8cb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Infrastructure.Data.MainBoundedContext")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Infrastructure.Data.MainBoundedContext")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
