@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "Contracts.Grpc";
+
+service TicketService {
+	rpc GetTickets (GetPaginatedTicketsRequest) returns (GetPaginatedTicketsResponse);
+}
+
+message TicketModel {
+	string id = 1;
+	string ticketType = 2;
+	int32 quantityOnHand = 3;
+	int32 quantityReserved = 4;
+	string priceCurrency = 5;
+	double priceAmount = 6;
+}
+
+message GetPaginatedTicketsRequest {
+  int32 pageNumber = 1;
+  int32 pageSize = 2;
+}
+
+message GetPaginatedTicketsResponse {
+  repeated TicketModel tickets = 1;
+  int32 totalCount = 2;
+  int32 pageNumber = 3;
+  int32 pageSize = 4;
+}
+

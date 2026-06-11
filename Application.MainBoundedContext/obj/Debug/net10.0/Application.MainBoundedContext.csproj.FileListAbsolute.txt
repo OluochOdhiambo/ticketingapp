@@ -1,0 +1,46 @@
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContext.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContext.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Domain.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Domain.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContextDTO.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Application.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Domain.MainBoundedContext.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Domain.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.csproj.AssemblyReference.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Applicat.59F11129.Up2Date
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\refint\Application.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContext\obj\Debug\net10.0\ref\Application.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContext.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContext.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Domain.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Domain.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Application.MainBoundedContextDTO.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Application.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Domain.MainBoundedContext.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Domain.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.csproj.AssemblyReference.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Applicat.59F11129.Up2Date
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\refint\Application.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\Application.MainBoundedContext.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContext\obj\Debug\net10.0\ref\Application.MainBoundedContext.dll

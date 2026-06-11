@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "Contracts.Grpc";
+
+service CustomerService {
+	rpc GetPaginatedCustomers (GetPaginatedCustomersRequest) returns (GetPaginatedCustomersResponse);
+}
+
+message CustomerModel {
+	string id = 1;
+	string code = 2;
+	string firstname = 3;
+	string lastname = 4;
+	string email = 5;
+	string phoneNumber = 6;
+}
+
+message GetPaginatedCustomersRequest {
+  int32 pageNumber = 1;
+  int32 pageSize = 2;
+}
+
+message GetPaginatedCustomersResponse {
+  repeated CustomerModel customers = 1;
+
+  int32 totalCount = 2;
+  int32 pageNumber = 3;
+  int32 pageSize = 4;
+}
+

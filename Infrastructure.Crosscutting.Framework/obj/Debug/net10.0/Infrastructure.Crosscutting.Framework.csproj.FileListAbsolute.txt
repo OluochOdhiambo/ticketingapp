@@ -1,0 +1,22 @@
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\refint\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\ref\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\bin\Debug\net10.0\Infrastructure.Crosscutting.Framework.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\refint\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\ref\Infrastructure.Crosscutting.Framework.dll

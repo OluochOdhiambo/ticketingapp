@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "lsLQiQyuFM8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Ticketing.API\\Ticketing.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\google.protobuf\\3.35.0\\google.protobuf.3.35.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.core.api\\2.80.0\\grpc.core.api.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.net.client\\2.80.0\\grpc.net.client.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.net.clientfactory\\2.80.0\\grpc.net.clientfactory.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.net.common\\2.80.0\\grpc.net.common.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\scalar.aspnetcore\\2.16.2\\scalar.aspnetcore.2.16.2.nupkg.sha512"
+  ],
+  "logs": []
+}

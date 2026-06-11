@@ -1,0 +1,45 @@
+<Solution>
+  <Folder Name="/1.1 - Presentation/" />
+  <Folder Name="/1.1 - Presentation/1.1.1 - Seedwork/">
+    <Project Path="Application.Contracts/Application.Contracts.csproj" />
+    <Project Path="Application.Infrastructure/Application.Infrastructure.csproj" />
+    <Project Path="Application.Shared/Application.Shared.csproj" />
+  </Folder>
+  <Folder Name="/1.1 - Presentation/1.1.2 - ASP.NET RIA/">
+    <Project Path="Ticketing.API/Ticketing.API.csproj" Id="9349b03e-4dce-4eb8-85b8-56404714e23a" />
+    <Project Path="Ticketing.WebAPP/ticketing.webapp.esproj">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/1.2 - Distributed Services/" />
+  <Folder Name="/1.2 - Distributed Services/1.2.1 - Seedwork/" />
+  <Folder Name="/1.2 - Distributed Services/1.2.2 - MainBoundedContext/">
+    <Project Path="Distirbuted.MainBoundedContext.Grpc/Distirbuted.MainBoundedContext.Grpc.csproj" />
+  </Folder>
+  <Folder Name="/1.3 - Application/" />
+  <Folder Name="/1.3 - Application/1.3.1 - Seedwork/">
+    <Project Path="Application.Seedwork/Application.Seedwork.csproj" />
+  </Folder>
+  <Folder Name="/1.3 - Application/1.3.2 - MainBoundedContext/">
+    <Project Path="Application.MainBoundedContext/Application.MainBoundedContext.csproj" />
+    <Project Path="Application.MainBoundedContextDTO/Application.MainBoundedContextDTO.csproj" />
+  </Folder>
+  <Folder Name="/1.4 - Domain/" />
+  <Folder Name="/1.4 - Domain/1.4.1 - Seedwork/">
+    <Project Path="Domain.Seedwork/Domain.Seedwork.csproj" />
+  </Folder>
+  <Folder Name="/1.4 - Domain/1.4.2 - MainBoundedContext/">
+    <Project Path="Domain.MainBoundedContext/Domain.MainBoundedContext.csproj" />
+  </Folder>
+  <Folder Name="/1.5 - Infrastructure/" />
+  <Folder Name="/1.5 - Infrastructure/1.5.1 - Data/">
+    <Project Path="Infrastructure.Data.MainBoundedContext/Infrastructure.Data.MainBoundedContext.csproj" />
+  </Folder>
+  <Folder Name="/1.5 - Infrastructure/1.5.2 - Cross-cutting/">
+    <Project Path="Infrastructure.Crosscutting.Framework/Infrastructure.Crosscutting.Framework.csproj" />
+  </Folder>
+  <Folder Name="/1.6 - Contracts/">
+    <Project Path="Contracts/Contracts.csproj" Id="73048ba5-9c72-454c-ab02-0f72a4f1318f" />
+  </Folder>
+</Solution>

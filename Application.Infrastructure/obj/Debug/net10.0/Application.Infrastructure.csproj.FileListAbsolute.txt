@@ -1,0 +1,38 @@
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Application.Infrastructure.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Application.Infrastructure.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Application.Infrastructure.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\refint\Application.Infrastructure.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\ref\Application.Infrastructure.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Application.Shared.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Application.Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Application.Shared.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\bin\Debug\net10.0\Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Infrastructure\obj\Debug\net10.0\Applicat.CAD867DE.Up2Date
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Application.Infrastructure.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Application.Infrastructure.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Application.Infrastructure.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Application.Shared.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Application.Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Application.Shared.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\bin\Debug\net10.0\Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Applicat.CAD867DE.Up2Date
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\refint\Application.Infrastructure.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\Application.Infrastructure.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Infrastructure\obj\Debug\net10.0\ref\Application.Infrastructure.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AIFPq9SsoBA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Application.MainBoundedContext\\Application.MainBoundedContext.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.9\\microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

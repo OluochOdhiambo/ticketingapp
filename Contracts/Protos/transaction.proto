@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "Contracts.Protos";
+
+service TransactionService {
+	rpc InitiatePayment (InitiatePaymentRequest) returns (InitiatePaymentResponse);
+}
+
+message TransactionModel {
+	string id = 1;
+	string orderId = 2;
+	string paymentMethod = 3;
+	double amount = 4;
+	string transactionReference = 5;
+	string transactionDate = 6;
+}
+
+message InitiatePaymentRequest {
+	string orderId = 1;
+	int32 paymentMethod = 2;
+}
+
+message InitiatePaymentResponse {
+	TransactionModel transaction = 1;
+}

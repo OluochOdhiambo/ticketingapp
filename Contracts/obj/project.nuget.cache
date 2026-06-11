@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8X7ApcLW9os=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Contracts\\Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\google.protobuf\\3.35.0\\google.protobuf.3.35.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.core.api\\2.80.0\\grpc.core.api.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.tools\\2.81.0\\grpc.tools.2.81.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "2nGe86nHRWQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Application.Infrastructure\\Application.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\google.protobuf\\3.35.0\\google.protobuf.3.35.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.core.api\\2.80.0\\grpc.core.api.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.net.client\\2.80.0\\grpc.net.client.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.net.clientfactory\\2.80.0\\grpc.net.clientfactory.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\grpc.net.common\\2.80.0\\grpc.net.common.2.80.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.11\\microsoft.aspnetcore.http.2.3.11.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.11\\microsoft.aspnetcore.http.abstractions.2.3.11.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.10\\microsoft.aspnetcore.http.features.2.3.10.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.3.10\\microsoft.aspnetcore.webutilities.2.3.10.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.9\\microsoft.extensions.dependencyinjection.10.0.9.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.9\\microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.0\\microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.http\\8.0.0\\microsoft.extensions.http.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.11\\microsoft.extensions.objectpool.8.0.11.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\marvin.oluoch\\.nuget\\packages\\microsoft.net.http.headers\\2.3.10\\microsoft.net.http.headers.2.3.10.nupkg.sha512"
+  ],
+  "logs": []
+}

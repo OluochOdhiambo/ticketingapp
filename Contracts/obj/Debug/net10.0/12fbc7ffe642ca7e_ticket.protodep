@@ -1,0 +1,2 @@
+obj\Debug\net10.0\Protos/Ticket.cs \
+obj\Debug\net10.0\Protos/TicketGrpc.cs: Protos/ticket.proto

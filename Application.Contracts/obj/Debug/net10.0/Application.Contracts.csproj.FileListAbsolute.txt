@@ -1,0 +1,30 @@
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\bin\Debug\net10.0\Application.Contracts.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\bin\Debug\net10.0\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\bin\Debug\net10.0\Application.Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Application.Contracts.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\refint\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Application.Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\ref\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\bin\Debug\net10.0\Application.Shared.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\bin\Debug\net10.0\Application.Shared.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Contracts\obj\Debug\net10.0\Applicat.6ADCBA11.Up2Date
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\bin\Debug\net10.0\Application.Contracts.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\bin\Debug\net10.0\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\bin\Debug\net10.0\Application.Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\bin\Debug\net10.0\Application.Shared.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\bin\Debug\net10.0\Application.Shared.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Applicat.6ADCBA11.Up2Date
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\refint\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\ref\Application.Contracts.dll

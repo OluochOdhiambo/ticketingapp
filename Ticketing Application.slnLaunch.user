@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Distirbuted.MainBoundedContext.Grpc\\Distirbuted.MainBoundedContext.Grpc.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Ticketing.API\\Ticketing.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

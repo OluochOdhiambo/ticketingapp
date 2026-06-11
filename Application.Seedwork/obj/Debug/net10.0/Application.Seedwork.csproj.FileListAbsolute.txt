@@ -1,0 +1,22 @@
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\bin\Debug\net10.0\Application.Seedwork.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\bin\Debug\net10.0\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\bin\Debug\net10.0\Application.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\refint\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.Seedwork\obj\Debug\net10.0\ref\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\bin\Debug\net10.0\Application.Seedwork.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\bin\Debug\net10.0\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\bin\Debug\net10.0\Application.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\refint\Application.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\Application.Seedwork.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Seedwork\obj\Debug\net10.0\ref\Application.Seedwork.dll

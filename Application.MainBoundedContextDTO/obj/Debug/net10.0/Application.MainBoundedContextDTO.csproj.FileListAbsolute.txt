@@ -1,0 +1,22 @@
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\bin\Debug\net10.0\Application.MainBoundedContextDTO.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\bin\Debug\net10.0\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\bin\Debug\net10.0\Application.MainBoundedContextDTO.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\refint\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.pdb
+C:\Users\marvin.oluoch\source\repos\Play\Ticketing Application\Application.MainBoundedContextDTO\obj\Debug\net10.0\ref\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\bin\Debug\net10.0\Application.MainBoundedContextDTO.deps.json
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\bin\Debug\net10.0\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\bin\Debug\net10.0\Application.MainBoundedContextDTO.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.AssemblyInfoInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.AssemblyInfo.cs
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.csproj.CoreCompileInputs.cache
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\refint\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.pdb
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\ref\Application.MainBoundedContextDTO.dll

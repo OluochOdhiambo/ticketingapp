@@ -1,0 +1,2 @@
+obj\Debug\net10.0\Protos/Transaction.cs \
+obj\Debug\net10.0\Protos/TransactionGrpc.cs: Protos/transaction.proto
