@@ -20,3 +20,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.Seedwork\ob
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.Seedwork\obj\Debug\net10.0\refint\Domain.Seedwork.dll
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.Seedwork\obj\Debug\net10.0\Domain.Seedwork.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.Seedwork\obj\Debug\net10.0\ref\Domain.Seedwork.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.Seedwork\obj\Debug\net10.0\Domain.Seedwork.sourcelink.json

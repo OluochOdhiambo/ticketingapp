@@ -32,3 +32,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.MainBounded
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.MainBoundedContext\obj\Debug\net10.0\refint\Domain.MainBoundedContext.dll
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.MainBoundedContext\obj\Debug\net10.0\Domain.MainBoundedContext.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.MainBoundedContext\obj\Debug\net10.0\ref\Domain.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Domain.MainBoundedContext\obj\Debug\net10.0\Domain.MainBoundedContext.sourcelink.json

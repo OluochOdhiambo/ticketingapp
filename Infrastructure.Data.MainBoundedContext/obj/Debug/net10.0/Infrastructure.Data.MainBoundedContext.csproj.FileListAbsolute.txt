@@ -40,3 +40,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Dat
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Data.MainBoundedContext\obj\Debug\net10.0\Infrastructure.Data.MainBoundedContext.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Data.MainBoundedContext\obj\Debug\net10.0\Infrastructure.Data.MainBoundedContext.genruntimeconfig.cache
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Data.MainBoundedContext\obj\Debug\net10.0\ref\Infrastructure.Data.MainBoundedContext.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Data.MainBoundedContext\obj\Debug\net10.0\Infrastructure.Data.MainBoundedContext.sourcelink.json

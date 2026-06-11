@@ -28,3 +28,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contra
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\refint\Application.Contracts.dll
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\ref\Application.Contracts.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Contracts\obj\Debug\net10.0\Application.Contracts.sourcelink.json

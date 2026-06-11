@@ -20,3 +20,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Cro
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\refint\Infrastructure.Crosscutting.Framework.dll
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\ref\Infrastructure.Crosscutting.Framework.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Infrastructure.Crosscutting.Framework\obj\Debug\net10.0\Infrastructure.Crosscutting.Framework.sourcelink.json

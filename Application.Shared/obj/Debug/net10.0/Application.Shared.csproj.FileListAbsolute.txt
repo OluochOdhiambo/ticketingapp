@@ -20,3 +20,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Shared
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Shared\obj\Debug\net10.0\refint\Application.Shared.dll
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Shared\obj\Debug\net10.0\Application.Shared.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Shared\obj\Debug\net10.0\ref\Application.Shared.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.Shared\obj\Debug\net10.0\Application.Shared.sourcelink.json

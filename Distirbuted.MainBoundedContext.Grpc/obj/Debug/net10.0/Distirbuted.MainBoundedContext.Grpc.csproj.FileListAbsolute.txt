@@ -362,3 +362,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Distirbuted.MainBo
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Distirbuted.MainBoundedContext.Grpc\obj\Debug\net10.0\Distirbuted.MainBoundedContext.Grpc.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Distirbuted.MainBoundedContext.Grpc\obj\Debug\net10.0\Distirbuted.MainBoundedContext.Grpc.genruntimeconfig.cache
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Distirbuted.MainBoundedContext.Grpc\obj\Debug\net10.0\ref\Distirbuted.MainBoundedContext.Grpc.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Distirbuted.MainBoundedContext.Grpc\obj\Debug\net10.0\Distirbuted.MainBoundedContext.Grpc.sourcelink.json

@@ -44,7 +44,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var retries = 5;
-    var delay = 5000;
+    var delay = 20000;
 
     while (retries > 0)
     {

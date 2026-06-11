@@ -7,9 +7,6 @@ using Domain.Seedwork;
 using Infrastructure.Data.MainBoundedContext.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Infrastructure.Data.MainBoundedContext.DependencyInjection
 {
@@ -21,7 +18,10 @@ namespace Infrastructure.Data.MainBoundedContext.DependencyInjection
         {
             // DbContext
             services.AddDbContext<MainDbContext>(options =>
-                options.UseSqlServer(connectionString));
+                options.UseSqlServer(connectionString, opt =>
+                {
+                    opt.MigrationsAssembly(typeof(MainDbContext).Assembly);
+                }));
             // Unit of Work
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

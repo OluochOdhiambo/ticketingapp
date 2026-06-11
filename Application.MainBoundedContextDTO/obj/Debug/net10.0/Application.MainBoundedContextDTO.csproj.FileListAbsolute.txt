@@ -20,3 +20,4 @@ C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBo
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\refint\Application.MainBoundedContextDTO.dll
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.pdb
 C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\ref\Application.MainBoundedContextDTO.dll
+C:\Users\marvin.oluoch\source\repos\Play\TicketingApplication\Application.MainBoundedContextDTO\obj\Debug\net10.0\Application.MainBoundedContextDTO.sourcelink.json

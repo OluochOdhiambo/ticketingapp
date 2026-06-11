@@ -316,9 +316,6 @@ namespace Infrastructure.Data.MainBoundedContext.Migrations
                     b.Property<int>("QuantityOnHand")
                         .HasColumnType("int");
 
-                    b.Property<int>("QuantityOnOrder")
-                        .HasColumnType("int");
-
                     b.Property<int>("QuantityReserved")
                         .HasColumnType("int");
 
