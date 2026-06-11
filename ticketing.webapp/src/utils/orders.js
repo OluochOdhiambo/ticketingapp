@@ -1,11 +1,3 @@
-/**
- * Dummy order seed data — mirrors OrderService / OrderModel in order.proto.
- *
- * OrderModel:     { id, customerId, items: OrderItemModel[], totalPrice, status }
- * OrderItemModel: { id, orderId, ticketId, orderedQuantity, currencyCode, unitPrice, lineTotal }
- *
- * Statuses used across the app: 'Pending' | 'Paid' | 'Cancelled'.
- */
 import { CURRENCY, TICKETS } from './tickets';
 
 const priceOf = (ticketId) => TICKETS.find((t) => t.id === ticketId)?.price ?? 0;

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Distirbuted.MainBoundedContext.Grpc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+253add119c417582eaac10ca0823d13189681880")]
 [assembly: System.Reflection.AssemblyProductAttribute("Distirbuted.MainBoundedContext.Grpc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Distirbuted.MainBoundedContext.Grpc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
