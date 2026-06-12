@@ -419,6 +419,16 @@
           }
         }
       },
+      "Application.MainBoundedContextDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Application.MainBoundedContextDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.MainBoundedContextDTO.dll": {}
+        }
+      },
       "Application.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1087,6 +1097,11 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
+    "Application.MainBoundedContextDTO/1.0.0": {
+      "type": "project",
+      "path": "../Application.MainBoundedContextDTO/Application.MainBoundedContextDTO.csproj",
+      "msbuildProject": "../Application.MainBoundedContextDTO/Application.MainBoundedContextDTO.csproj"
+    },
     "Application.Shared/1.0.0": {
       "type": "project",
       "path": "../Application.Shared/Application.Shared.csproj",
@@ -1095,6 +1110,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Application.MainBoundedContextDTO >= 1.0.0",
       "Application.Shared >= 1.0.0",
       "Grpc.Net.Client >= 2.80.0",
       "Grpc.Net.ClientFactory >= 2.80.0",
@@ -1136,6 +1152,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Application.MainBoundedContextDTO\\Application.MainBoundedContextDTO.csproj": {
+              "projectPath": "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Application.MainBoundedContextDTO\\Application.MainBoundedContextDTO.csproj"
+            },
             "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Application.Shared\\Application.Shared.csproj": {
               "projectPath": "C:\\Users\\marvin.oluoch\\source\\repos\\Play\\TicketingApplication\\Application.Shared\\Application.Shared.csproj"
             }

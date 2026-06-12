@@ -1,8 +1,5 @@
 ﻿using Application.Shared.Application.Shared;
 using Application.Shared.Application.TicketsModule;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Application.Contracts.Services
 {

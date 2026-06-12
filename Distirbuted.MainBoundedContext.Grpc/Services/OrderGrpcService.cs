@@ -11,6 +11,7 @@ namespace Distirbuted.MainBoundedContext.Grpc.Services
     {
         private readonly ICommandHandler<AddOrderLineCommand, OrderDTO> _addOrderLineCommandHandler;
         private readonly ICommandHandler<BookTicketCommand, OrderDTO> _bookTicketCommandHandler;
+        private readonly ICommandHandler<RemoveOrderLineCommand, OrderDTO> _removeOrderLineCommandHandler;
 
         public OrderGrpcService(
             ICommandHandler<BookTicketCommand, OrderDTO> bookTicketCommandHandler,
@@ -78,6 +79,47 @@ namespace Distirbuted.MainBoundedContext.Grpc.Services
             var order = await _addOrderLineCommandHandler.HandleAsync(command, context.CancellationToken);
 
             var response = new AddOrderLineResponse
+            {
+                Order = new OrderModel
+                {
+                    Id = order.Id.ToString(),
+                    CustomerId = order.CustomerId.ToString(),
+                    TotalPrice = (double)order.TotalAmount,
+                    Status = order.StatusDescription,
+
+                    Items = { order.OrderLines.Select(line => new OrderItemModel
+                    {
+                        Id = line.Id.ToString(),
+                        OrderId = line.OrderId.ToString(),
+                        TicketId = line.TicketId.ToString(),
+                        OrderedQuantity = line.Quantity,
+                        CurrencyCode = line.CurrencyCode,
+                        UnitPrice = (double)line.UnitPrice,
+                        LineTotal = (double)line.LineTotal
+                    }) }
+                }
+            };
+
+            return response;
+        }
+
+        public override async Task<RemoveOrderLineResponse> RemoveOrderLine(
+            RemoveOrderLineRequest request,
+            ServerCallContext context)
+        {
+            var command = new RemoveOrderLineCommand
+            {
+                OrderId = Guid.Parse(request.OrderId),
+                Line = new OrderLineDTO
+                {
+                    TicketId = Guid.Parse(request.OrderLine.TicketId),
+                    Quantity = request.OrderLine.OrderedQuantity
+                }
+            };
+
+            var order = await _removeOrderLineCommandHandler.HandleAsync(command, context.CancellationToken);
+
+            var response = new RemoveOrderLineResponse
             {
                 Order = new OrderModel
                 {

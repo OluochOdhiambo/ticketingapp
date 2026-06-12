@@ -1,9 +1,6 @@
 ﻿using Application.MainBoundedContextDTO.Tickets;
 using Application.Seedwork;
 using Infrastructure.Crosscutting.Framework.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Application.MainBoundedContext.Queries
 {

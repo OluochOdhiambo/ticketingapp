@@ -106,7 +106,7 @@ namespace Application.Infrastructure.Gateway
             }
         }
 
-        public async Task<OrderDTO> RemoveOrderLineAsync(AddOrderLineDTO dto)
+        public async Task<OrderDTO> RemoveOrderLineAsync(RemoveOrderLineDTO dto)
         {
             try
             {

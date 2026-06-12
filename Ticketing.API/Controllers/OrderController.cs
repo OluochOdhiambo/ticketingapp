@@ -31,5 +31,13 @@ namespace Ticketing.API.Controllers
 
             return Ok(orderLine);
         }
+
+        [HttpPost("removeorderline")]
+        public async Task<IActionResult> RemoveOrderLine([FromBody] RemoveOrderLineDTO request)
+        {
+            var orderLine = await _orderGatewayService.RemoveOrderLineAsync(request);
+
+            return Ok(orderLine);
+        }
     }
 }

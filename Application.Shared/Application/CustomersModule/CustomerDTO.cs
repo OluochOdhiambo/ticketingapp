@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Application.MainBoundedContextDTO.Customers
+namespace Application.Shared.Application.CustomersModule
 {
-    public class CustomerDTO
+    internal class CustomerDTO
     {
         public Guid Id { get; set; }
 

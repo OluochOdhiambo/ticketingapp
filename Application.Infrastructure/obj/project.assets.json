@@ -436,6 +436,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "Application.MainBoundedContextDTO": "1.0.0",
           "Application.Shared": "1.0.0",
           "Grpc.Net.Client": "2.80.0",
           "Grpc.Net.ClientFactory": "2.80.0",
@@ -448,6 +449,16 @@
         },
         "runtime": {
           "bin/placeholder/Application.Contracts.dll": {}
+        }
+      },
+      "Application.MainBoundedContextDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Application.MainBoundedContextDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.MainBoundedContextDTO.dll": {}
         }
       },
       "Application.Shared/1.0.0": {
@@ -1159,6 +1170,11 @@
       "type": "project",
       "path": "../Application.Contracts/Application.Contracts.csproj",
       "msbuildProject": "../Application.Contracts/Application.Contracts.csproj"
+    },
+    "Application.MainBoundedContextDTO/1.0.0": {
+      "type": "project",
+      "path": "../Application.MainBoundedContextDTO/Application.MainBoundedContextDTO.csproj",
+      "msbuildProject": "../Application.MainBoundedContextDTO/Application.MainBoundedContextDTO.csproj"
     },
     "Application.Shared/1.0.0": {
       "type": "project",
