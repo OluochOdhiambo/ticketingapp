@@ -169,7 +169,7 @@ docker-compose logs -f ticketing-grpc-service
 
 [View ERD on ](https://excalidraw.com/#json=vvUIy3wB8J0i-m_uCrFbz,p8V2pdI5V5OY4U-SIXhtUA)
 
-![ERD](docs/erd.png)
+![ERD](docs/ticketingappERD.excalidraw.png)
 
 ---
 
