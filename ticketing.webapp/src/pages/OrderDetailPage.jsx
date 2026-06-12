@@ -7,23 +7,6 @@ import { ticketName } from '../utils/tickets';
 import { formatCurrency } from '../utils/format';
 import StatusBadge from '../components/StatusBadge';
 
-// --- Real API call — OrderService.GetOrder --------------------------------
-// (disabled — swap in once the ASP.NET gRPC backend is live. The live version
-// doesn't need the store snapshot; the server resolves the order by id.)
-// import { BASE_API_URL } from '../utils/apiUrl';
-//
-// async function getOrder(orderId) {
-//   const res = await fetch(`${BASE_API_URL}/OrderService/GetOrder`, {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify({ orderId }),
-//   });
-//   if (!res.ok) throw new Error('Failed to load order');
-//   const data = await res.json();
-//   return data.order; // GetOrderResponse { order }
-// }
-
-// Simulated OrderService.GetOrder — looks the order up in the store snapshot.
 function getOrder(orders, orderId) {
   return new Promise((resolve) => {
     setTimeout(() => resolve(orders.find((o) => o.id === orderId) ?? null), 700);
@@ -48,7 +31,6 @@ export default function OrderDetailPage() {
   const orders = useOrderStore((s) => s.orders);
   const [result, setResult] = useState({ id: null, order: null });
 
-  // Loading == the order we've resolved isn't the one currently requested.
   const loading = result.id !== orderId;
   const order = result.order;
 

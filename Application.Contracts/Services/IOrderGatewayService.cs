@@ -6,6 +6,8 @@ namespace Application.Contracts.Services
     {
         Task<OrderDTO> AddOrderLineAsync(AddOrderLineDTO dto);
 
+        Task<OrderDTO> RemoveOrderLineAsync(AddOrderLineDTO dto);
+
         Task<OrderDTO> BookTicketAsync(BookTicketDTO dto);
     }
 }

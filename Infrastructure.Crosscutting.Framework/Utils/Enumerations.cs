@@ -19,7 +19,9 @@ namespace Infrastructure.Crosscutting.Framework.Utils
         [Description("Paid")]
         Paid = 2,
         [Description("Refunded")]
-        Refunded = 3
+        Refunded = 3,
+        [Description("Cancelled")]
+        Cancelled = 9
     }
 
     public enum PaymentMethod

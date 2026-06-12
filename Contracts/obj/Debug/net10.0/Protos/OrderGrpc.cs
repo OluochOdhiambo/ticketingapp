@@ -61,6 +61,10 @@ namespace Contracts.Protos {
     static readonly grpc::Marshaller<global::Contracts.Protos.GetPaginatedOrdersRequest> __Marshaller_GetPaginatedOrdersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.GetPaginatedOrdersRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Contracts.Protos.GetPaginatedOrdersResponse> __Marshaller_GetPaginatedOrdersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.GetPaginatedOrdersResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Contracts.Protos.RemoveOrderLineRequest> __Marshaller_RemoveOrderLineRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.RemoveOrderLineRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Contracts.Protos.RemoveOrderLineResponse> __Marshaller_RemoveOrderLineResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.RemoveOrderLineResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Contracts.Protos.BookTicketRequest, global::Contracts.Protos.BookTicketResponse> __Method_BookTicket = new grpc::Method<global::Contracts.Protos.BookTicketRequest, global::Contracts.Protos.BookTicketResponse>(
@@ -94,6 +98,14 @@ namespace Contracts.Protos {
         __Marshaller_GetPaginatedOrdersRequest,
         __Marshaller_GetPaginatedOrdersResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Contracts.Protos.RemoveOrderLineRequest, global::Contracts.Protos.RemoveOrderLineResponse> __Method_RemoveOrderLine = new grpc::Method<global::Contracts.Protos.RemoveOrderLineRequest, global::Contracts.Protos.RemoveOrderLineResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RemoveOrderLine",
+        __Marshaller_RemoveOrderLineRequest,
+        __Marshaller_RemoveOrderLineResponse);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -124,6 +136,12 @@ namespace Contracts.Protos {
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Contracts.Protos.GetPaginatedOrdersResponse> GetPaginatedOrders(global::Contracts.Protos.GetPaginatedOrdersRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Contracts.Protos.RemoveOrderLineResponse> RemoveOrderLine(global::Contracts.Protos.RemoveOrderLineRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -237,6 +255,26 @@ namespace Contracts.Protos {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetPaginatedOrders, null, options, request);
       }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Contracts.Protos.RemoveOrderLineResponse RemoveOrderLine(global::Contracts.Protos.RemoveOrderLineRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RemoveOrderLine(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Contracts.Protos.RemoveOrderLineResponse RemoveOrderLine(global::Contracts.Protos.RemoveOrderLineRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RemoveOrderLine, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Contracts.Protos.RemoveOrderLineResponse> RemoveOrderLineAsync(global::Contracts.Protos.RemoveOrderLineRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RemoveOrderLineAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Contracts.Protos.RemoveOrderLineResponse> RemoveOrderLineAsync(global::Contracts.Protos.RemoveOrderLineRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RemoveOrderLine, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override OrderServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -254,7 +292,8 @@ namespace Contracts.Protos {
           .AddMethod(__Method_BookTicket, serviceImpl.BookTicket)
           .AddMethod(__Method_AddOrderLine, serviceImpl.AddOrderLine)
           .AddMethod(__Method_GetOrder, serviceImpl.GetOrder)
-          .AddMethod(__Method_GetPaginatedOrders, serviceImpl.GetPaginatedOrders).Build();
+          .AddMethod(__Method_GetPaginatedOrders, serviceImpl.GetPaginatedOrders)
+          .AddMethod(__Method_RemoveOrderLine, serviceImpl.RemoveOrderLine).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -268,6 +307,7 @@ namespace Contracts.Protos {
       serviceBinder.AddMethod(__Method_AddOrderLine, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Contracts.Protos.AddOrderLineRequest, global::Contracts.Protos.AddOrderLineResponse>(serviceImpl.AddOrderLine));
       serviceBinder.AddMethod(__Method_GetOrder, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Contracts.Protos.GetOrderRequest, global::Contracts.Protos.GetOrderResponse>(serviceImpl.GetOrder));
       serviceBinder.AddMethod(__Method_GetPaginatedOrders, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Contracts.Protos.GetPaginatedOrdersRequest, global::Contracts.Protos.GetPaginatedOrdersResponse>(serviceImpl.GetPaginatedOrders));
+      serviceBinder.AddMethod(__Method_RemoveOrderLine, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Contracts.Protos.RemoveOrderLineRequest, global::Contracts.Protos.RemoveOrderLineResponse>(serviceImpl.RemoveOrderLine));
     }
 
   }

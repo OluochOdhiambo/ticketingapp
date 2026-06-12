@@ -9,23 +9,6 @@ import Pagination from '../components/Pagination';
 
 const PAGE_SIZE = 5;
 
-// --- Real API call — OrderService.GetPaginatedOrders ----------------------
-// (disabled — swap in once the ASP.NET gRPC backend is live. The live version
-// doesn't need the store snapshot; the server owns the order list.)
-// import { BASE_API_URL } from '../utils/apiUrl';
-//
-// async function getPaginatedOrders(pageNumber, pageSize) {
-//   const res = await fetch(`${BASE_API_URL}/OrderService/GetPaginatedOrders`, {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify({ pageNumber, pageSize }),
-//   });
-//   if (!res.ok) throw new Error('Failed to load orders');
-//   return res.json(); // { orders, totalCount, pageNumber, pageSize }
-// }
-
-// Simulated OrderService.GetPaginatedOrders — reads the current order "database"
-// snapshot from the store and returns a page after a short delay.
 function getPaginatedOrders(orders, pageNumber, pageSize) {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -57,7 +40,6 @@ export default function OrdersPage() {
   const [page, setPage] = useState(1);
   const [data, setData] = useState({ orders: [], totalCount: 0, pageNumber: 0 });
 
-  // Loading == the page we're showing isn't the page that was requested yet.
   const loading = data.pageNumber !== page;
 
   useEffect(() => {

@@ -9,7 +9,6 @@ import StatusBadge from '../components/StatusBadge';
 export default function SuccessPage() {
   const lastOrder = useCartStore((s) => s.lastOrder);
 
-  // No order to show (e.g. direct navigation / reload after clearing) -> home.
   if (!lastOrder) {
     return <Navigate to="/" replace />;
   }
@@ -20,7 +19,6 @@ export default function SuccessPage() {
 
   return (
     <div className="mx-auto max-w-2xl">
-      {/* Confirmation header */}
       <div className="flex flex-col items-center text-center">
         <span className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-emerald-100 text-emerald-600">
           <CheckCircle className="h-9 w-9" />
@@ -33,7 +31,6 @@ export default function SuccessPage() {
         </p>
       </div>
 
-      {/* Transaction details */}
       <div className="mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
         <div className="border-b border-slate-200 px-6 py-4">
           <dl className="grid gap-4 sm:grid-cols-2">
@@ -73,7 +70,6 @@ export default function SuccessPage() {
           </dl>
         </div>
 
-        {/* Order summary */}
         <div className="border-b border-slate-200 px-6 py-4">
           <div className="flex items-center justify-between">
             <div>
@@ -85,14 +81,13 @@ export default function SuccessPage() {
           </div>
         </div>
 
-        {/* Line items */}
         <div className="px-6 py-4">
           <p className="mb-3 text-sm font-semibold text-slate-900">Tickets</p>
           <ul className="space-y-2">
             {order.items.map((item) => (
               <li key={item.id} className="flex justify-between text-sm text-slate-600">
                 <span>
-                  {ticketName(item.ticketId)} &times; {item.orderedQuantity}
+                  {item.ticketName ?? ticketName(item.ticketId)} &times; {item.orderedQuantity}
                 </span>
                 <span className="font-medium text-slate-900">
                   {formatCurrency(item.lineTotal, item.currencyCode)}

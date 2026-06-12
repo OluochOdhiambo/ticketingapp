@@ -4,7 +4,7 @@ export const customerName = (id) => {
 };
 
 export const CUSTOMERS = [
-  { id: 'c-001', code: 'CUST-1001', firstname: 'Amira', lastname: 'Hassan', email: 'amira.hassan@example.com', phoneNumber: '+971 50 123 4567' },
-  { id: 'c-002', code: 'CUST-1002', firstname: 'Omar', lastname: 'Khalid', email: 'omar.khalid@example.com', phoneNumber: '+971 50 234 5678' },
-  { id: 'c-003', code: 'CUST-1003', firstname: 'Layla', lastname: 'Ahmed', email: 'layla.ahmed@example.com', phoneNumber: '+971 50 345 6789' },
+    { id: '3CD9FC3B-6FAB-41BD-AD3C-08DEC7C308E8', code: 'CUST001', firstname: 'John', lastname: 'Doe', email: 'john.doe@email.com', phoneNumber: '+254500000001' },
+    { id: '88258A8D-C649-4E25-AD3D-08DEC7C308E8', code: 'CUST002', firstname: 'Jane', lastname: 'Smith', email: 'jane.smith@email.com', phoneNumber: '+254500000002' },
+    { id: '29082AA1-34AB-45A6-AD3E-08DEC7C308E8', code: 'CUST003', firstname: 'Michael', lastname: 'Johnson', email: 'michael.johnson@email.com', phoneNumber: '+254500000003' },
 ];

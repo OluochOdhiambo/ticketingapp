@@ -37,20 +37,24 @@ namespace Contracts.Protos {
             "ZXNwb25zZRIaCgVvcmRlchgBIAEoCzILLk9yZGVyTW9kZWwiUAoTQWRkT3Jk",
             "ZXJMaW5lUmVxdWVzdBIPCgdvcmRlcklkGAEgASgJEigKCW9yZGVyTGluZRgC",
             "IAEoCzIVLkNyZWF0ZU9yZGVySXRlbU1vZGVsIjIKFEFkZE9yZGVyTGluZVJl",
-            "c3BvbnNlEhoKBW9yZGVyGAEgASgLMgsuT3JkZXJNb2RlbCIiCg9HZXRPcmRl",
-            "clJlcXVlc3QSDwoHb3JkZXJJZBgBIAEoCSIuChBHZXRPcmRlclJlc3BvbnNl",
-            "EhoKBW9yZGVyGAEgASgLMgsuT3JkZXJNb2RlbCJBChlHZXRQYWdpbmF0ZWRP",
-            "cmRlcnNSZXF1ZXN0EhIKCnBhZ2VOdW1iZXIYASABKAUSEAoIcGFnZVNpemUY",
-            "AiABKAUicwoaR2V0UGFnaW5hdGVkT3JkZXJzUmVzcG9uc2USGwoGb3JkZXJz",
-            "GAEgAygLMgsuT3JkZXJNb2RlbBISCgp0b3RhbENvdW50GAIgASgFEhIKCnBh",
-            "Z2VOdW1iZXIYAyABKAUSEAoIcGFnZVNpemUYBCABKAUyggIKDE9yZGVyU2Vy",
-            "dmljZRI1CgpCb29rVGlja2V0EhIuQm9va1RpY2tldFJlcXVlc3QaEy5Cb29r",
-            "VGlja2V0UmVzcG9uc2USOwoMQWRkT3JkZXJMaW5lEhQuQWRkT3JkZXJMaW5l",
-            "UmVxdWVzdBoVLkFkZE9yZGVyTGluZVJlc3BvbnNlEi8KCEdldE9yZGVyEhAu",
-            "R2V0T3JkZXJSZXF1ZXN0GhEuR2V0T3JkZXJSZXNwb25zZRJNChJHZXRQYWdp",
-            "bmF0ZWRPcmRlcnMSGi5HZXRQYWdpbmF0ZWRPcmRlcnNSZXF1ZXN0GhsuR2V0",
-            "UGFnaW5hdGVkT3JkZXJzUmVzcG9uc2VCE6oCEENvbnRyYWN0cy5Qcm90b3Ni",
-            "BnByb3RvMw=="));
+            "c3BvbnNlEhoKBW9yZGVyGAEgASgLMgsuT3JkZXJNb2RlbCJTChZSZW1vdmVP",
+            "cmRlckxpbmVSZXF1ZXN0Eg8KB29yZGVySWQYASABKAkSKAoJb3JkZXJMaW5l",
+            "GAIgASgLMhUuQ3JlYXRlT3JkZXJJdGVtTW9kZWwiNQoXUmVtb3ZlT3JkZXJM",
+            "aW5lUmVzcG9uc2USGgoFb3JkZXIYASABKAsyCy5PcmRlck1vZGVsIiIKD0dl",
+            "dE9yZGVyUmVxdWVzdBIPCgdvcmRlcklkGAEgASgJIi4KEEdldE9yZGVyUmVz",
+            "cG9uc2USGgoFb3JkZXIYASABKAsyCy5PcmRlck1vZGVsIkEKGUdldFBhZ2lu",
+            "YXRlZE9yZGVyc1JlcXVlc3QSEgoKcGFnZU51bWJlchgBIAEoBRIQCghwYWdl",
+            "U2l6ZRgCIAEoBSJzChpHZXRQYWdpbmF0ZWRPcmRlcnNSZXNwb25zZRIbCgZv",
+            "cmRlcnMYASADKAsyCy5PcmRlck1vZGVsEhIKCnRvdGFsQ291bnQYAiABKAUS",
+            "EgoKcGFnZU51bWJlchgDIAEoBRIQCghwYWdlU2l6ZRgEIAEoBTLIAgoMT3Jk",
+            "ZXJTZXJ2aWNlEjUKCkJvb2tUaWNrZXQSEi5Cb29rVGlja2V0UmVxdWVzdBoT",
+            "LkJvb2tUaWNrZXRSZXNwb25zZRI7CgxBZGRPcmRlckxpbmUSFC5BZGRPcmRl",
+            "ckxpbmVSZXF1ZXN0GhUuQWRkT3JkZXJMaW5lUmVzcG9uc2USLwoIR2V0T3Jk",
+            "ZXISEC5HZXRPcmRlclJlcXVlc3QaES5HZXRPcmRlclJlc3BvbnNlEk0KEkdl",
+            "dFBhZ2luYXRlZE9yZGVycxIaLkdldFBhZ2luYXRlZE9yZGVyc1JlcXVlc3Qa",
+            "Gy5HZXRQYWdpbmF0ZWRPcmRlcnNSZXNwb25zZRJECg9SZW1vdmVPcmRlckxp",
+            "bmUSFy5SZW1vdmVPcmRlckxpbmVSZXF1ZXN0GhguUmVtb3ZlT3JkZXJMaW5l",
+            "UmVzcG9uc2VCE6oCEENvbnRyYWN0cy5Qcm90b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -61,6 +65,8 @@ namespace Contracts.Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.BookTicketResponse), global::Contracts.Protos.BookTicketResponse.Parser, new[]{ "Order" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.AddOrderLineRequest), global::Contracts.Protos.AddOrderLineRequest.Parser, new[]{ "OrderId", "OrderLine" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.AddOrderLineResponse), global::Contracts.Protos.AddOrderLineResponse.Parser, new[]{ "Order" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.RemoveOrderLineRequest), global::Contracts.Protos.RemoveOrderLineRequest.Parser, new[]{ "OrderId", "OrderLine" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.RemoveOrderLineResponse), global::Contracts.Protos.RemoveOrderLineResponse.Parser, new[]{ "Order" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.GetOrderRequest), global::Contracts.Protos.GetOrderRequest.Parser, new[]{ "OrderId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.GetOrderResponse), global::Contracts.Protos.GetOrderResponse.Parser, new[]{ "Order" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.Protos.GetPaginatedOrdersRequest), global::Contracts.Protos.GetPaginatedOrdersRequest.Parser, new[]{ "PageNumber", "PageSize" }, null, null, null, null),
@@ -1964,6 +1970,457 @@ namespace Contracts.Protos {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class RemoveOrderLineRequest : pb::IMessage<RemoveOrderLineRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<RemoveOrderLineRequest> _parser = new pb::MessageParser<RemoveOrderLineRequest>(() => new RemoveOrderLineRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<RemoveOrderLineRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RemoveOrderLineRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RemoveOrderLineRequest(RemoveOrderLineRequest other) : this() {
+      orderId_ = other.orderId_;
+      orderLine_ = other.orderLine_ != null ? other.orderLine_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RemoveOrderLineRequest Clone() {
+      return new RemoveOrderLineRequest(this);
+    }
+
+    /// <summary>Field number for the "orderId" field.</summary>
+    public const int OrderIdFieldNumber = 1;
+    private string orderId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string OrderId {
+      get { return orderId_; }
+      set {
+        orderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "orderLine" field.</summary>
+    public const int OrderLineFieldNumber = 2;
+    private global::Contracts.Protos.CreateOrderItemModel orderLine_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Contracts.Protos.CreateOrderItemModel OrderLine {
+      get { return orderLine_; }
+      set {
+        orderLine_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as RemoveOrderLineRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(RemoveOrderLineRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OrderId != other.OrderId) return false;
+      if (!object.Equals(OrderLine, other.OrderLine)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OrderId.Length != 0) hash ^= OrderId.GetHashCode();
+      if (orderLine_ != null) hash ^= OrderLine.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (OrderId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(OrderId);
+      }
+      if (orderLine_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OrderLine);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (OrderId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(OrderId);
+      }
+      if (orderLine_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OrderLine);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (OrderId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OrderId);
+      }
+      if (orderLine_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OrderLine);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(RemoveOrderLineRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OrderId.Length != 0) {
+        OrderId = other.OrderId;
+      }
+      if (other.orderLine_ != null) {
+        if (orderLine_ == null) {
+          OrderLine = new global::Contracts.Protos.CreateOrderItemModel();
+        }
+        OrderLine.MergeFrom(other.OrderLine);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            OrderId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (orderLine_ == null) {
+              OrderLine = new global::Contracts.Protos.CreateOrderItemModel();
+            }
+            input.ReadMessage(OrderLine);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            OrderId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (orderLine_ == null) {
+              OrderLine = new global::Contracts.Protos.CreateOrderItemModel();
+            }
+            input.ReadMessage(OrderLine);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class RemoveOrderLineResponse : pb::IMessage<RemoveOrderLineResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<RemoveOrderLineResponse> _parser = new pb::MessageParser<RemoveOrderLineResponse>(() => new RemoveOrderLineResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<RemoveOrderLineResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RemoveOrderLineResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RemoveOrderLineResponse(RemoveOrderLineResponse other) : this() {
+      order_ = other.order_ != null ? other.order_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RemoveOrderLineResponse Clone() {
+      return new RemoveOrderLineResponse(this);
+    }
+
+    /// <summary>Field number for the "order" field.</summary>
+    public const int OrderFieldNumber = 1;
+    private global::Contracts.Protos.OrderModel order_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Contracts.Protos.OrderModel Order {
+      get { return order_; }
+      set {
+        order_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as RemoveOrderLineResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(RemoveOrderLineResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Order, other.Order)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (order_ != null) hash ^= Order.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (order_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Order);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (order_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Order);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (order_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Order);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(RemoveOrderLineResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.order_ != null) {
+        if (order_ == null) {
+          Order = new global::Contracts.Protos.OrderModel();
+        }
+        Order.MergeFrom(other.Order);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (order_ == null) {
+              Order = new global::Contracts.Protos.OrderModel();
+            }
+            input.ReadMessage(Order);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (order_ == null) {
+              Order = new global::Contracts.Protos.OrderModel();
+            }
+            input.ReadMessage(Order);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetOrderRequest : pb::IMessage<GetOrderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1978,7 +2435,7 @@ namespace Contracts.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2176,7 +2633,7 @@ namespace Contracts.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2383,7 +2840,7 @@ namespace Contracts.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2618,7 +3075,7 @@ namespace Contracts.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Contracts.Protos.OrderReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

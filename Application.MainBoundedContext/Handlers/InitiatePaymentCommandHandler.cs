@@ -49,6 +49,8 @@ namespace Application.MainBoundedContext.Handlers
                     $"Order with id {command.OrderId} does not exist.");
             }
 
+            order.MarkAsPaid();
+
             var transaction = TransactionFactory.CreateTransaction(
                 order.Id,
                 command.PaymentMethod,

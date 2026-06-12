@@ -1,8 +1,11 @@
-/** Dummy ticket catalogue (no database — static seed data). */
+/** Dummy ticket catalogue used as a fallback for legacy mock screens. */
 export const CURRENCY = 'AED';
 
-/** Resolve a ticket's display name from its id (OrderItemModel only carries ticketId). */
-export const ticketName = (id) => TICKETS.find((t) => t.id === id)?.name ?? id;
+const DEFAULT_PERKS = {
+  gold: ['General admission', 'Standard seating', 'Event programme'],
+  premium: ['Priority entry', 'Reserved seating', 'Welcome drink'],
+  vip: ['Backstage access', 'Front-row seating', 'Lounge & catering'],
+};
 
 export const TICKETS = [
   {
@@ -11,7 +14,7 @@ export const TICKETS = [
     price: 100,
     currency: CURRENCY,
     quota: 50,
-    perks: ['General admission', 'Standard seating', 'Event programme'],
+    perks: DEFAULT_PERKS.gold,
   },
   {
     id: 'premium',
@@ -19,7 +22,7 @@ export const TICKETS = [
     price: 200,
     currency: CURRENCY,
     quota: 30,
-    perks: ['Priority entry', 'Reserved seating', 'Welcome drink'],
+    perks: DEFAULT_PERKS.premium,
   },
   {
     id: 'vip',
@@ -27,6 +30,10 @@ export const TICKETS = [
     price: 500,
     currency: CURRENCY,
     quota: 10,
-    perks: ['Backstage access', 'Front-row seating', 'Lounge & catering'],
+    perks: DEFAULT_PERKS.vip,
   },
 ];
+
+/** Resolve a ticket's display name from its id (OrderItemModel only carries ticketId). */
+export const ticketName = (id) =>
+  TICKETS.find((t) => t.id === id)?.name ?? id;

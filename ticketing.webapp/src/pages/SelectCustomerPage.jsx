@@ -4,26 +4,9 @@ import { Users, ChevronRight } from 'lucide-react';
 import { CUSTOMERS } from '../utils/customers';
 import { useCustomerStore } from '../store/customerStore';
 
-// --- Real API call — CustomerService.GetPaginatedCustomers ----------------
-// (disabled — swap in once the ASP.NET gRPC backend is live)
-// import { BASE_API_URL } from '../utils/apiUrl';
-//
-// async function fetchCustomers() {
-//   const res = await fetch(`${BASE_API_URL}/CustomerService/GetPaginatedCustomers`, {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify({ pageNumber: 1, pageSize: 100 }),
-//   });
-//   if (!res.ok) throw new Error('Failed to load customers');
-//   const data = await res.json();
-//   return data.customers; // GetPaginatedCustomersResponse { customers, ... }
-// }
-
-// Simulated CustomerService.GetPaginatedCustomers — resolves the dummy
-// directory after a short delay so the list can show a loading state.
 function fetchCustomers() {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(CUSTOMERS.map((c) => ({ ...c }))), 1000);
+    setTimeout(() => resolve(CUSTOMERS.map((c) => ({ ...c }))), 300);
   });
 }
 
@@ -48,15 +31,24 @@ export default function SelectCustomerPage() {
 
   const [customers, setCustomers] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     let active = true;
-    fetchCustomers().then((list) => {
-      if (active) {
-        setCustomers(list);
-        setLoading(false);
-      }
-    });
+    setLoading(true);
+    setError(null);
+
+    fetchCustomers()
+      .then((list) => {
+        if (active) setCustomers(list);
+      })
+      .catch((err) => {
+        if (active) setError(err.message ?? 'Failed to load customers.');
+      })
+      .finally(() => {
+        if (active) setLoading(false);
+      });
+
     return () => {
       active = false;
     };
@@ -83,6 +75,12 @@ export default function SelectCustomerPage() {
         </div>
       </div>
 
+      {error && (
+        <div className="mb-4 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+          {error}
+        </div>
+      )}
+
       <div className="space-y-3">
         {loading ? (
           <SkeletonList />
@@ -99,7 +97,7 @@ export default function SelectCustomerPage() {
                   {c.firstname} {c.lastname}
                 </p>
                 <p className="text-sm text-slate-500">
-                  {c.code} · {c.email}
+                  {c.code} - {c.email}
                 </p>
               </div>
               <ChevronRight className="h-5 w-5 text-slate-400" />

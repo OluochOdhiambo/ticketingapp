@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Domain.Seedwork")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26de015120b28553801047e2460c752a94e46c8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85e9e05fb012d4bb5bf93d8134ac1c27054d3224")]
 [assembly: System.Reflection.AssemblyProductAttribute("Domain.Seedwork")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Domain.Seedwork")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

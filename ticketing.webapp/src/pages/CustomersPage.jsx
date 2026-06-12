@@ -5,22 +5,6 @@ import Pagination from '../components/Pagination';
 
 const PAGE_SIZE = 6;
 
-// --- Real API call — CustomerService.GetPaginatedCustomers ----------------
-// (disabled — swap in once the ASP.NET gRPC backend is live)
-// import { BASE_API_URL } from '../utils/apiUrl';
-//
-// async function getPaginatedCustomers(pageNumber, pageSize) {
-//   const res = await fetch(`${BASE_API_URL}/CustomerService/GetPaginatedCustomers`, {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify({ pageNumber, pageSize }),
-//   });
-//   if (!res.ok) throw new Error('Failed to load customers');
-//   return res.json(); // { customers, totalCount, pageNumber, pageSize }
-// }
-
-// Simulated CustomerService.GetPaginatedCustomers — slices the dummy directory
-// after a short delay so the table can show skeleton rows while "loading".
 function getPaginatedCustomers(pageNumber, pageSize) {
   return new Promise((resolve) => {
     setTimeout(() => {

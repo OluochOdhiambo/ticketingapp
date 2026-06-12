@@ -7,6 +7,7 @@ service OrderService {
 	rpc AddOrderLine (AddOrderLineRequest) returns (AddOrderLineResponse);
 	rpc GetOrder (GetOrderRequest) returns (GetOrderResponse);
 	rpc GetPaginatedOrders (GetPaginatedOrdersRequest) returns (GetPaginatedOrdersResponse);
+	rpc RemoveOrderLine (RemoveOrderLineRequest) returns (RemoveOrderLineResponse);
 }
 
 message CreateOrderItemModel {
@@ -47,6 +48,15 @@ message AddOrderLineRequest {
 }
 
 message AddOrderLineResponse {
+	OrderModel order = 1;
+}
+
+message RemoveOrderLineRequest {
+	string orderId = 1;
+	CreateOrderItemModel orderLine = 2;
+}
+
+message RemoveOrderLineResponse {
 	OrderModel order = 1;
 }
 

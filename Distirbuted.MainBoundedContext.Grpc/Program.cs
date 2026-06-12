@@ -37,6 +37,8 @@ builder.Services.AddScoped<ICommandHandler<InitiatePaymentCommand, TransactionDT
 
 builder.Services.AddScoped<IQueryHandler<GetPaginatedTicketsQuery, PagedResult<TicketDTO>>,
     GetPaginatedTicketsQueryHandler>();
+builder.Services.AddScoped<IQueryHandler<GetTransactionByIdQuery,
+    TransactionDTO?>, GetTransactionByIdQueryHandler>();
 
 var app = builder.Build();
 

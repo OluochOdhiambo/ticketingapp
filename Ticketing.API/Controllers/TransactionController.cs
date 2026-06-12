@@ -16,10 +16,19 @@ namespace Ticketing.API.Controllers
             _transactionGatewayService = transactionGatewayService;
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTransaction(Guid id)
+        {
+            var result = await _transactionGatewayService.GetTransactionAsync(id);
+
+            return Ok(result);
+        }
+
         [HttpPost]
         public async Task<IActionResult> InitiatePayment([FromBody] InitiatePaymentDTO request)
         {
             var result = await _transactionGatewayService.InitiatePaymentAsync(request);
+
             return Ok(result);
         }
     }

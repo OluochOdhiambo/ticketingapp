@@ -1,30 +1,32 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-/**
- * Cart store (persisted to localStorage).
- *
- * items: [{ id, name, price, currency, quantity }]
- * lastOrder: the most recent successful checkout result (for the Success page).
- */
 export const useCartStore = create(
   persist(
     (set, get) => ({
       items: [],
+      currentOrderId: null,
+      currentOrder: null,
       lastOrder: null,
 
-      // Add a ticket to the cart, or bump its quantity if already present.
-      addItem: (ticket) =>
+      addItem: (ticket, orderId = null) =>
         set((state) => {
-          const existing = state.items.find((i) => i.id === ticket.id);
+          const existing = state.items.find((item) => item.id === ticket.id);
+          const currentOrderId = state.currentOrderId ?? orderId;
+
           if (existing) {
             return {
-              items: state.items.map((i) =>
-                i.id === ticket.id ? { ...i, quantity: i.quantity + 1 } : i
+              currentOrderId,
+              items: state.items.map((item) =>
+                item.id === ticket.id
+                  ? { ...item, quantity: item.quantity + 1 }
+                  : item
               ),
             };
           }
+
           return {
+            currentOrderId,
             items: [
               ...state.items,
               {
@@ -38,40 +40,62 @@ export const useCartStore = create(
           };
         }),
 
-      // Remove a ticket line entirely.
       removeItem: (id) =>
-        set((state) => ({ items: state.items.filter((i) => i.id !== id) })),
+        set((state) => {
+          const items = state.items.filter((item) => item.id !== id);
+          return {
+            items,
+            currentOrderId: items.length === 0 ? null : state.currentOrderId,
+            currentOrder: items.length === 0 ? null : state.currentOrder,
+          };
+        }),
 
       increment: (id) =>
         set((state) => ({
-          items: state.items.map((i) =>
-            i.id === id ? { ...i, quantity: i.quantity + 1 } : i
+          items: state.items.map((item) =>
+            item.id === id ? { ...item, quantity: item.quantity + 1 } : item
           ),
         })),
 
-      // Decrement quantity; remove the line if it would drop to zero.
       decrement: (id) =>
-        set((state) => ({
-          items: state.items
-            .map((i) =>
-              i.id === id ? { ...i, quantity: i.quantity - 1 } : i
+        set((state) => {
+          const items = state.items
+            .map((item) =>
+              item.id === id ? { ...item, quantity: item.quantity - 1 } : item
             )
-            .filter((i) => i.quantity > 0),
-        })),
+            .filter((item) => item.quantity > 0);
 
-      clearCart: () => set({ items: [] }),
+          return {
+            items,
+            currentOrderId: items.length === 0 ? null : state.currentOrderId,
+            currentOrder: items.length === 0 ? null : state.currentOrder,
+          };
+        }),
+
+      setCurrentOrderId: (orderId) => set({ currentOrderId: orderId }),
+
+      setCurrentOrder: (order) =>
+        set({
+          currentOrder: order,
+          currentOrderId: order?.id ?? null,
+        }),
+
+      clearCart: () => set({ items: [], currentOrderId: null, currentOrder: null }),
 
       setLastOrder: (order) => set({ lastOrder: order }),
 
-      // Derived selectors.
-      totalItems: () => get().items.reduce((sum, i) => sum + i.quantity, 0),
+      totalItems: () => get().items.reduce((sum, item) => sum + item.quantity, 0),
       totalCost: () =>
-        get().items.reduce((sum, i) => sum + i.price * i.quantity, 0),
+        get().items.reduce((sum, item) => sum + item.price * item.quantity, 0),
     }),
     {
       name: 'ticket-cart',
-      // Only persist the cart contents, not the volatile selectors.
-      partialize: (state) => ({ items: state.items, lastOrder: state.lastOrder }),
+      partialize: (state) => ({
+        items: state.items,
+        currentOrderId: state.currentOrderId,
+        currentOrder: state.currentOrder,
+        lastOrder: state.lastOrder,
+      }),
     }
   )
 );

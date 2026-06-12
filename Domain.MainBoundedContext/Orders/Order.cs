@@ -93,9 +93,14 @@ namespace Domain.MainBoundedContext.Orders
             Status = OrderStatus.Booked;
         }
 
-        public void Refund()
+        public void MarkAsPaid()
         {
-            Status = OrderStatus.Refunded;
+            Status = OrderStatus.Paid;
+        }
+
+        public void Cancel()
+        {
+            Status = OrderStatus.Cancelled;
         }
 
     }

@@ -59,7 +59,8 @@ namespace Application.MainBoundedContext.Handlers
                     TicketId = l.TicketId,
                     Quantity = l.OrderedQuantity,
                     CurrencyCode = l.UnitPrice.Currency,
-                    UnitPrice = l.UnitPrice.Amount
+                    UnitPrice = l.UnitPrice.Amount,
+                    LineTotal = l.GetLineTotal().Amount,
                 }).ToList()
             };
         }

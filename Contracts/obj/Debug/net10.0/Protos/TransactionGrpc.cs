@@ -46,9 +46,21 @@ namespace Contracts.Protos {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Contracts.Protos.GetTransactionRequest> __Marshaller_GetTransactionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.GetTransactionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Contracts.Protos.GetTransactionResponse> __Marshaller_GetTransactionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.GetTransactionResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Contracts.Protos.InitiatePaymentRequest> __Marshaller_InitiatePaymentRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.InitiatePaymentRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Contracts.Protos.InitiatePaymentResponse> __Marshaller_InitiatePaymentResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Contracts.Protos.InitiatePaymentResponse.Parser));
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Contracts.Protos.GetTransactionRequest, global::Contracts.Protos.GetTransactionResponse> __Method_GetTransaction = new grpc::Method<global::Contracts.Protos.GetTransactionRequest, global::Contracts.Protos.GetTransactionResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetTransaction",
+        __Marshaller_GetTransactionRequest,
+        __Marshaller_GetTransactionResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Contracts.Protos.InitiatePaymentRequest, global::Contracts.Protos.InitiatePaymentResponse> __Method_InitiatePayment = new grpc::Method<global::Contracts.Protos.InitiatePaymentRequest, global::Contracts.Protos.InitiatePaymentResponse>(
@@ -68,6 +80,12 @@ namespace Contracts.Protos {
     [grpc::BindServiceMethod(typeof(TransactionService), "BindService")]
     public abstract partial class TransactionServiceBase
     {
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Contracts.Protos.GetTransactionResponse> GetTransaction(global::Contracts.Protos.GetTransactionRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Contracts.Protos.InitiatePaymentResponse> InitiatePayment(global::Contracts.Protos.InitiatePaymentRequest request, grpc::ServerCallContext context)
       {
@@ -104,6 +122,26 @@ namespace Contracts.Protos {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Contracts.Protos.GetTransactionResponse GetTransaction(global::Contracts.Protos.GetTransactionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetTransaction(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Contracts.Protos.GetTransactionResponse GetTransaction(global::Contracts.Protos.GetTransactionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetTransaction, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Contracts.Protos.GetTransactionResponse> GetTransactionAsync(global::Contracts.Protos.GetTransactionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetTransactionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Contracts.Protos.GetTransactionResponse> GetTransactionAsync(global::Contracts.Protos.GetTransactionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetTransaction, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Contracts.Protos.InitiatePaymentResponse InitiatePayment(global::Contracts.Protos.InitiatePaymentRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitiatePayment(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -137,6 +175,7 @@ namespace Contracts.Protos {
     public static grpc::ServerServiceDefinition BindService(TransactionServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
+          .AddMethod(__Method_GetTransaction, serviceImpl.GetTransaction)
           .AddMethod(__Method_InitiatePayment, serviceImpl.InitiatePayment).Build();
     }
 
@@ -147,6 +186,7 @@ namespace Contracts.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, TransactionServiceBase serviceImpl)
     {
+      serviceBinder.AddMethod(__Method_GetTransaction, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Contracts.Protos.GetTransactionRequest, global::Contracts.Protos.GetTransactionResponse>(serviceImpl.GetTransaction));
       serviceBinder.AddMethod(__Method_InitiatePayment, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Contracts.Protos.InitiatePaymentRequest, global::Contracts.Protos.InitiatePaymentResponse>(serviceImpl.InitiatePayment));
     }
 
