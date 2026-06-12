@@ -27,8 +27,8 @@ namespace Application.MainBoundedContext.Handlers
                 {
                     Id = ticket.Id,
                     TicketType = ticket.TicketType.GetDescription(),
-                    QuantityOnHand = 0,
-                    QuantityReserved = 0,
+                    QuantityOnHand = ticket.QuantityOnHand,
+                    QuantityReserved = ticket.QuantityReserved,
                     Currency = "AED",
                     Amount = ticket.Price.Amount
                 }).ToList(),
