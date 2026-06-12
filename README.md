@@ -31,6 +31,7 @@ Create a `.env` file in the root of the cloned repository:
 ```env
 # Database
 DB_PASSWORD=YourPassword
+```
 
 ---
 
@@ -38,18 +39,70 @@ DB_PASSWORD=YourPassword
 
 ```
 TicketingApplication/
-├── docker-compose.yml                          # Docker orchestration
-├── .env                                        # Environment variables (create manually)
-├── Distirbuted.MainBoundedContext.Grpc/        # gRPC service
+│
+├── docker-compose.yml                              # Docker orchestration
+├── .env                                            # Environment variables (create manually)
+├── README.md                                       # This file
+│
+├── Application.Contracts/                          # Presentation layer grpc client gateway abstractions
+│   ├── Services
+├── Application.Infrastructure/                     # Presentation layer grpc client gateway implementations
+│   ├── Gateway
+├── Application.Shared/                     		# Presentation layer data transfer objects
+│   ├── Application
+		├── OrdersModule
+		├── TicketsModule
+		├── TransactionsModule
+		├── Shared
+│
+├── Ticketing.API/                                  # REST API
 │   ├── Dockerfile
-│   └── Keys/                                   # RSA keys (shared separately)
-├── Ticketing.API/                              # REST API
-│   └── Dockerfile
-├── ticketing.webapp/                           # React frontend
+│   ├── Controllers/
+│   ├── appsettings.json
+│   └── appsettings.Docker.json
+│
+├── ticketing.webapp/                               # React frontend
 │   ├── Dockerfile
-│   └── nginx.conf
-└── Infrastructure.Data.MainBoundedContext/     # EF Core migrations
-    └── Migrations/
+│   ├── nginx.conf
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── Distirbuted.MainBoundedContext.Grpc/            # gRPC service
+│   ├── Dockerfile
+│   ├── Services/
+│   ├── appsettings.json
+│   └── appsettings.Docker.json
+│
+├── Application.Seedwork/                           # Application layer shared abstractions
+├── Application.MainBoundedContext/                 # Application layer
+│	├── Commands/
+│   ├── Handlers/
+│   ├── Queries/
+├── Application.MainBoundedContextDTO/              # Application layer data transfer objects
+│	├── Accounts/
+│   ├── Customers/
+│   ├── Orders/
+│	├── Tickets/
+│	├── Transactions/
+│
+├── Domain.Seedwork/                      			# Domain layer shared abstractions
+├── Domain.MainBoundedContext/                      # Domain layer
+│	├── Accounts/
+│   ├── Customers/
+│   ├── Orders/
+│	├── Tickets/
+│	├── Transactions/
+│	├── ValueObjects/
+│
+├── Infrastructure.Data.MainBoundedContext/         # EF Core + Migrations
+│   ├── Migrations/
+│   ├── Configurations/
+│   ├── Repositories/
+│   └── MainDbContext.cs
+│
+└── Contracts/                                      # gRPC proto definitions
 ```
 
 ---
@@ -112,6 +165,12 @@ docker-compose logs -f ticketing-grpc-service
 
 ---
 
+## Entity Relationship Diagram
+
+[View ERD on ](https://excalidraw.com/#json=vvUIy3wB8J0i-m_uCrFbz,p8V2pdI5V5OY4U-SIXhtUA)
+
+---
+
 ## Database Access (SSMS)
 
 Connect to the Dockerized SQL Server using SQL Server Management Studio:
@@ -123,7 +182,7 @@ Login:          sa
 Password:       YourPassword  (same as DB_PASSWORD in .env)
 ```
 
-> The database schema is created automatically on first startup via EF Core migrations. No manual setup required.
+> The database schema and seed data are created automatically on first startup via EF Core migrations. No manual setup required.
 
 ---
 
@@ -179,6 +238,7 @@ ticketing-db (SQL Server) :1433
 ## Support
 
 For issues or questions, reach me via email at:
+
 ```
 oluochodhiambo11@gmail.com
 ```
